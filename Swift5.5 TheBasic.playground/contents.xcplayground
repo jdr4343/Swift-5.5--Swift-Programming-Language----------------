@@ -7,5 +7,6 @@
         <page name='Inregers'/>
         <page name='Floating-Point Numbers'/>
         <page name='Type Safety and Type Inference'/>
+        <page name='Numeric Literals'/>
     </pages>
 </playground>
