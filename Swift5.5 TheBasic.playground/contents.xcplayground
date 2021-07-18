@@ -4,5 +4,7 @@
         <page name='Constants and Variables'/>
         <page name='Comments'/>
         <page name='Semicolons'/>
+        <page name='Inregers'/>
+        <page name='Floating-Point Numbers'/>
     </pages>
 </playground>
