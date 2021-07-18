@@ -3,5 +3,6 @@
     <pages>
         <page name='Constants and Variables'/>
         <page name='Comments'/>
+        <page name='Semicolons'/>
     </pages>
 </playground>
