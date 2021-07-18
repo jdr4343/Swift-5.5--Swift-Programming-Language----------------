@@ -8,5 +8,6 @@
         <page name='Floating-Point Numbers'/>
         <page name='Type Safety and Type Inference'/>
         <page name='Numeric Literals'/>
+        <page name='Numeric Type Conversion'/>
     </pages>
 </playground>
