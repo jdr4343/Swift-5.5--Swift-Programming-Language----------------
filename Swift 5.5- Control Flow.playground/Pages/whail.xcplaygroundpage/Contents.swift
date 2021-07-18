@@ -1,20 +1,53 @@
 import UIKit
 
 //While Loops (while 반복문)
-//-In Loops (for-in 반복문)
-//for-in 반복문은, 배열이나, 수치 범위, 또는 문자열에 있는 문자들 같은, ‘시퀀스 (sequences)’ 에 동작을 반복하기 위해 사용합니다.
-let fruit = ["Apple", "Melon", "Orange", "Graeph", "WaterMelon"]
+//while 반복문은 조건이 false 가 될 때까지 ‘일련의 구문 집합’ 을 수행합니다. 이런 종류의 반복문은 첫 번째 ‘회차’ 의 시작 전에 ‘반복 횟수’ 를 알 수 없을 때 사용하는 것이 가장 좋습니다.
 
-for fruitName in fruit {
-    print("My ShoppingList in \(fruitName)!")
+//whle 문은 반복문을 매 번 통과하기 시작할 때 조건을 평가합니다.
+//repeat-while 문은 반복문을 매 번 통과한 끝에서 조건을 평가합니다.
+
+//while 반복문은 단일 조건을 평가하는 것으로써 시작합니다. 조건이 true 이면, 조건이 false 가 될 때까지 ‘일련의 구문 집합’ 들이 반복됩니다.
+
+//while condition-조건 {
+//    statements-구문
+//}
+
+var num = 1
+var sum = 0
+
+while sum <= 100 {
+    sum += num
 }
+sum
 
-//‘키-값 쌍 (key-value pairs)’ 에 접근하기 위해 ‘딕셔너리’ 에 동작을 반복시킬 수도 있습니다.
-//Dictionary 의 ‘내용물 (contents)’ 은 태생적으로 순서가 없으며4, 이에 동작을 반복시키는 것은 가져올 순서라는 보장이 없습니다.
-let studentsClass = ["jihun": 2, "hunsu": 4, "Minju": 8]
 
-for (name,Class) in studentsClass {
-    print("My name is \(name) and class number is \(Class)")
+while num <= 100 {
+    sum += num
+    num += 1
 }
+sum
 
-//for-in 반복문은 ‘수치 범위 (numeric ranges)’ 와 같이 사용할 수도 있습니다. 다음 예제는 구구단 5-단의 처음 몇 ‘값들 (entries)’ 을 인쇄합니다:
+//Repeat-While (repeat-while 문)
+//while 반복문의 다른 변형으로, repeat-while 반복문이 있는데, 반복문의 조건을 고려하기 전에 (before), ‘반복문 블럭’ 을 먼저 한 번 통과합니다. 그런 다음 조건이 false 가 될 때까지 반복문을 계속 ‘되풀이합니다 (repeat)’.
+//repeat {
+//statements-구문
+//} while condition-조건
+
+var num1 = 100
+while num1 < 100 {
+    num1 += 1
+}
+num1
+//while 문 num이라는 변수에 100인 경우 while문이 종료됨
+
+
+
+num1 = 100
+repeat {
+    num1 += 1
+    
+}while num1 < 100
+num1
+//repeat while문을 실행시키면 일단 실행시킴 num 에 100이 저장되면 종료 됨 컨디션에 관계 없이 먼저 실행하기 떄문에 값이 달라 질수 있음
+//조건을 먼저 사용해야된다면 repeat while문 코드를 먼저 실행해야 된다면 일반 while문을 쓰면 된다.
+
