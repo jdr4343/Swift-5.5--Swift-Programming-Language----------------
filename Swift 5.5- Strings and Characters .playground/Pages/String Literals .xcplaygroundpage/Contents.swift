@@ -2,6 +2,7 @@
 
 import Foundation
 //Strings and Characters (문자열과 문자)
+///https://xho95.github.io/swift/grammar/strings/characters/2016/05/29/Strings-and-Characters.html
 //문자열 (string) 은, "hello, world" 나 "albatross" 처럼, 문자들이 연속된 것입니다. 스위프트 문자열은 String 타입으로 표현합니다. String 의 ‘내용물 (contents)’ 에는, Character 값의 ‘컬렉션 (collection)’2 을 포함한, 다양한 방법으로 접근할 수 있습니다.
 
 //String Literals (문자열 글자 값)

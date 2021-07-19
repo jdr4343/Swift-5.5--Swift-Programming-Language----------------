@@ -4,5 +4,6 @@
         <page name='String Literals '/>
         <page name='Initializing an Empty String'/>
         <page name='String Mutability'/>
+        <page name='Strings Are Value Types'/>
     </pages>
 </playground>
