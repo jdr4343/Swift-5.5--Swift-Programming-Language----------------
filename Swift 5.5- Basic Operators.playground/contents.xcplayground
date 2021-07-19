@@ -7,5 +7,7 @@
         <page name='Compound Assignment Operators'/>
         <page name='Comparison Operators'/>
         <page name='Ternary Conditional Operator'/>
+        <page name='Nil-Coalescing Operator'/>
+        <page name='Range Operators'/>
     </pages>
 </playground>
