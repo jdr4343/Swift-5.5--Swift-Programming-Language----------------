@@ -12,5 +12,6 @@
         <page name='Type Aliases'/>
         <page name='Booleans'/>
         <page name='Tuples'/>
+        <page name='Optionals'/>
     </pages>
 </playground>
