@@ -13,5 +13,6 @@
         <page name='Booleans'/>
         <page name='Tuples'/>
         <page name='Optionals'/>
+        <page name='Error Handling'/>
     </pages>
 </playground>

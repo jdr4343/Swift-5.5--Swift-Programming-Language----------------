@@ -3,7 +3,7 @@
 import Foundation
 
 //Swift 5.5: The Basics (기초)
-
+///https://xho95.github.io/swift/language/grammar/basics/2016/04/24/The-Basics.html
 //Constants and Variables (상수와 변수)
 //상수와 변수는 이름을 특정한 타입의 값과 결합합니다.상수 (constant) 의 값은 한번 설정하면 바꿀 수 없는 반면, 변수 (variable) 는 나중에 다른 값으로 설정할 수 있습니다.
 
