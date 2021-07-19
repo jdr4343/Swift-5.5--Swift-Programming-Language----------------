@@ -12,5 +12,6 @@
         <page name='Counting Characters'/>
         <page name='Accessing and Modifying a String'/>
         <page name='Substrings'/>
+        <page name='Comparing Strings'/>
     </pages>
 </playground>
