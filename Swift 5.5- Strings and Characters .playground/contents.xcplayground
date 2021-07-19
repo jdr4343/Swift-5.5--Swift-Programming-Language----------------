@@ -11,5 +11,6 @@
         <page name='Unicode'/>
         <page name='Counting Characters'/>
         <page name='Accessing and Modifying a String'/>
+        <page name='Substrings'/>
     </pages>
 </playground>
