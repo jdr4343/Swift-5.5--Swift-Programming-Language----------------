@@ -9,5 +9,6 @@
         <page name='Concatenating Strings and Characters'/>
         <page name='String Interpolation'/>
         <page name='Unicode'/>
+        <page name='Counting Characters'/>
     </pages>
 </playground>
