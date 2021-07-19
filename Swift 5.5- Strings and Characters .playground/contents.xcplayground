@@ -3,5 +3,6 @@
     <pages>
         <page name='String Literals '/>
         <page name='Initializing an Empty String'/>
+        <page name='String Mutability'/>
     </pages>
 </playground>
