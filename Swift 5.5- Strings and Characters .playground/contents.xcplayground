@@ -8,5 +8,6 @@
         <page name='Working with Characters'/>
         <page name='Concatenating Strings and Characters'/>
         <page name='String Interpolation'/>
+        <page name='Unicode'/>
     </pages>
 </playground>
