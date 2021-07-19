@@ -9,5 +9,6 @@
         <page name='Ternary Conditional Operator'/>
         <page name='Nil-Coalescing Operator'/>
         <page name='Range Operators'/>
+        <page name='Logical Operators'/>
     </pages>
 </playground>
