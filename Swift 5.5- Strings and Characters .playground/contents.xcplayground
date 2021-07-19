@@ -6,5 +6,7 @@
         <page name='String Mutability'/>
         <page name='Strings Are Value Types'/>
         <page name='Working with Characters'/>
+        <page name='Concatenating Strings and Characters'/>
+        <page name='String Interpolation'/>
     </pages>
 </playground>
