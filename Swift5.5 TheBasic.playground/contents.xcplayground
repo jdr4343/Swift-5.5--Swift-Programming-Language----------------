@@ -14,5 +14,6 @@
         <page name='Tuples'/>
         <page name='Optionals'/>
         <page name='Error Handling'/>
+        <page name='Assertions and Preconditions '/>
     </pages>
 </playground>
