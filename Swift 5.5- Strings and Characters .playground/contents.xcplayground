@@ -13,5 +13,6 @@
         <page name='Accessing and Modifying a String'/>
         <page name='Substrings'/>
         <page name='Comparing Strings'/>
+        <page name='Unicode Representations of Strings'/>
     </pages>
 </playground>

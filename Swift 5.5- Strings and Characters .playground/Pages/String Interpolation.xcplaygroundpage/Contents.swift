@@ -19,7 +19,7 @@ print(#"Write an interpolated string in Swift using \(multiplier)."#)
 //‘확장된 구분자’ 를 사용하는 문자열에서 ‘문자열 보간법’ 을 사용하려면, ‘역 빗금 (backslash)’ 뒤의 ‘번호 기호’ 개수를 문자열 시작과 끝에 있는 ‘번호 기호’ 개수와 일치시키면 됩니다. 예를 들면 다음과 같습니다:
 //무야호 ..! 구분자에서도 추가할수 있습니다.
 print(#"6 times 7 is \#(6 * 7)."#)
-"6 times 7 is 42." 를 출력합니다.
+//"6 times 7 is 42." 를 출력합니다.
 
 
 //: [Next](@next)
