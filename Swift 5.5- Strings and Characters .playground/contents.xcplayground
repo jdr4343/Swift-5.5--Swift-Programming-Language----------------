@@ -10,5 +10,6 @@
         <page name='String Interpolation'/>
         <page name='Unicode'/>
         <page name='Counting Characters'/>
+        <page name='Accessing and Modifying a String'/>
     </pages>
 </playground>
