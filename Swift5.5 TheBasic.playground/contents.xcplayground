@@ -10,5 +10,7 @@
         <page name='Numeric Literals'/>
         <page name='Numeric Type Conversion'/>
         <page name='Type Aliases'/>
+        <page name='Booleans'/>
+        <page name='Tuples'/>
     </pages>
 </playground>
