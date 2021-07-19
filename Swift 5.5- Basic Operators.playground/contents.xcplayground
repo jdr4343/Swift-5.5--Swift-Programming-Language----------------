@@ -3,5 +3,7 @@
     <pages>
         <page name='Terminology'/>
         <page name='Assignment Operator'/>
+        <page name='Arithmetic Operators'/>
+        <page name='Compound Assignment Operators'/>
     </pages>
 </playground>
