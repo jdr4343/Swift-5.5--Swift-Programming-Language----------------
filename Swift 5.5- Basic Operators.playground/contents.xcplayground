@@ -5,5 +5,6 @@
         <page name='Assignment Operator'/>
         <page name='Arithmetic Operators'/>
         <page name='Compound Assignment Operators'/>
+        <page name='Comparison Operators'/>
     </pages>
 </playground>
