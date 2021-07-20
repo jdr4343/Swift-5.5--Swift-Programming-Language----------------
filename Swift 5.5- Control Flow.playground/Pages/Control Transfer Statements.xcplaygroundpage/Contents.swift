@@ -78,7 +78,7 @@ print(description)
 // "The number 5 is a prime number, and also an integer."
 
 
-//abeled Statements (이름표 구문)
+//Labeled Statements (이름표 구문)
 //스위프트는, 복잡한 ‘제어 흐름 구조’ 를 생성하기 위해 반복문과 조건문이 다른 반복문과 조건문을 ‘중첩 (nest)’ 할 수 있습니다. 하지만, 반복문과 조건문은 둘 다 실행을 미리 끝내기 위해 break 문을 사용 수 있습니다.
 //그러므로, break 문이 종료하고 싶은 반복문이나 조건문이 어느 것인지 명시하는 것이 유용할 때가 있습니다
 
