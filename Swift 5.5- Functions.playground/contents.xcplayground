@@ -3,5 +3,6 @@
     <pages>
         <page name='Defining and Calling Functions'/>
         <page name='Function Parameters and Return Values'/>
+        <page name='Optional Tuple Return Types'/>
     </pages>
 </playground>
