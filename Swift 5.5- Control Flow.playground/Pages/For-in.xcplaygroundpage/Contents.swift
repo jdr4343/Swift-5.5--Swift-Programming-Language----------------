@@ -16,7 +16,7 @@ for fruitName in fruit {
 }
 
 //‘키-값 쌍 (key-value pairs)’ 에 접근하기 위해 ‘딕셔너리’ 에 동작을 반복시킬 수도 있습니다.
-//Dictionary 의 ‘내용물 (contents)’ 은 태생적으로 순서가 없으며4, 이에 동작을 반복시키는 것은 가져올 순서라는 보장이 없습니다.
+//Dictionary 의 ‘내용물 (contents)’ 은 태생적으로 순서가 없으며, 이에 동작을 반복시키는 것은 가져올 순서라는 보장이 없습니다.
 let studentsClass = ["jihun": 2, "hunsu": 4, "Minju": 8]
 
 for (name,Class) in studentsClass {
@@ -55,13 +55,14 @@ for tickmark in stride(from: 0, to: minute, by: minuteintevel) {
 print(tickmark)
 }
 
-//원하지 않는 눈금을 건너뛰려면 stride(from:to:by:) 함수를 사용합니다.
+//닫힌 범위’ 역시, stride(from:through:by:) 로 대신 사용하는 것이, 가능합니다
 let hour = 24
 let hourIntervel = 3
-for tickmark in stride(from: 0, to: hour, by: hourIntervel) {
+for tickmark in stride(from: 3, through: hour, by: hourIntervel) {
     print(tickmark)
 }
-
+//stride(from:to:by:) 는 ‘반-열린 범위’ 를 대신하고, stride(from:through:by:) 는 ‘닫힌 범위’ 를 대신하는 것임을 알 수 있습니다.
+//두개를 위예제에서 비교하자면 반열림 범위로 구현할경우 21 까지만 나올것이고 닫힘범위로 계산한다면 24까지 나옵니다.
 
 
 //자체 구문
