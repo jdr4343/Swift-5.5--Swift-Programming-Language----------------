@@ -35,6 +35,26 @@ arithmeticMean(3, 8.25, 18.75)
 //가변파라미터는 기본값을 가질수 없습니다.
 
 
+//In-Out Parameters (입-출력 매개 변수)
+//함수 매개 변수는 기본적으로 상수입니다. 함수 매개 변수의 값을 해당 함수 본문에서 바꾸려고 하는 것은 ‘컴파일-시간 에러’ 가 되버립니다.
+//이는 매개 변수의 값이 실수로 바뀔 일은 없다는 의미입니다. 함수에서 매개 변수의 값을 수정하고 싶고, 이렇게 바뀐 것을 함수 호출이 끝난 후에도 유지하고 싶으면, 해당 매개 변수를 입-출력 매개 변수 (in-out parameter) 로 대신 정의합니다.
+
+
+//입-출력 매개 변수’ 는 매개 변수 타입 바로 앞에 inout 키워드를 붙여서 작성합니다.
+//변수를 입-출력 매개 변수의 인자로 전달할 때는, 함수에서 수정될 수 있음을 지시하기 위해, 변수 이름 바로 앞에 ‘앤드 기호 (ampersand; &)’ 를 붙입니다.
+
+func swapTwoInts(_ a: inout Int, _ b: inout Int) {
+  let temporaryA = a
+  a = b
+  b = temporaryA
+}
+
+var someInt = 3
+var anotherInt = 107
+swapTwoInts(&someInt, &anotherInt)
+print("someInt is now \(someInt), and anotherInt is now \(anotherInt)")
+// "someInt is now 107, and anotherInt is now 3" 를 인쇄합니다.
+//위 예제는 someInt 와 anotherInt 의 원본 값이, 함수 외부에서 정의했음에도 불구하고, swapTwoInts(_:_:) 함수에서 수정된다는 것을 보여줍니다.
 
 
 //: [Next](@next)
