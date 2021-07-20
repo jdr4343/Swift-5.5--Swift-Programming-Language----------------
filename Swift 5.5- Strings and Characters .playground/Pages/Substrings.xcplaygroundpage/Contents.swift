@@ -22,5 +22,5 @@ let newString = String(beginning)
 //위에서 언급한 것처럼, 하위 문자열은 ‘오랜-기간 저장 (long-term storage)’ 하는 데는 적합하지 않습니다-왜냐면 이는 원래 문자열의 저장 공간을 재사용하므로, 하위 문자열 중 어떤 것이든 사용 중이라면 반드시 원래 문자열 전체를 메모리에 유지해야 하기 때문입니다.
 
 //위 예제에서, greeting 은 문자열인데, 이는 문자열을 이루는 문자들이 저장된 메모리 영역을 가지고 있음을 의미합니다. beginning 은 greeting 의 하위 문자열이기 때문에, 이는 greeting 이 사용하는 메모리를 재사용합니다. 이와는 대조적으로, newString 은 문자열입니다-하위 문자열을 써서 생성할 때, 이는 자신만의 저장 공간을 가지게 됩니다.
-//Recources 파일의 String and Chatacter에 사진 첨부 해놨습니다. 이해에 도움이 되길바랍니다.
+//Recources 파일의 String and Chatacter에 사진 첨부 해놨습니다.
 
