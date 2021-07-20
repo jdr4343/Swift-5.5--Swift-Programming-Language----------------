@@ -4,5 +4,6 @@
         <page name='Defining and Calling Functions'/>
         <page name='Function Parameters and Return Values'/>
         <page name='Optional Tuple Return Types'/>
+        <page name='Function Argument Labels and Parameter Names'/>
     </pages>
 </playground>
