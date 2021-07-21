@@ -5,5 +5,6 @@
         <page name='The self Property'/>
         <page name='Modifying Value Types from Within Instance Methods'/>
         <page name='Assigning to self Within a Mutating Method'/>
+        <page name='Type Methods'/>
     </pages>
 </playground>
