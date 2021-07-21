@@ -6,5 +6,7 @@
         <page name='Optional Tuple Return Types'/>
         <page name='Function Argument Labels and Parameter Names'/>
         <page name='Parameter'/>
+        <page name='Function Types'/>
+        <page name='Nested Functions'/>
     </pages>
 </playground>
