@@ -4,6 +4,7 @@
         <page name='Stored Properties'/>
         <page name='Computed Properties'/>
         <page name='Property Observers'/>
+        <page name='Property Wrappers'/>
         <page name='Global and Local Variables '/>
         <page name='Type Properties'/>
     </pages>

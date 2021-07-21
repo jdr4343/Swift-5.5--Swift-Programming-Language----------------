@@ -41,23 +41,56 @@ print("square.origin is now at (\(square.origin.x), \(square.origin.y))")
 //Shorthand Setter Declaration (설정자 선언의 줄임 표현)
 //계산 속성의 설정자가 설정할 새 값에 대한 이름을 정의하지 않은 경우, ‘기본 이름’ 인 newValue 를 사용합니다. 다음은 이런 ‘줄임 표기법 (shorthand notation)’ 의 장점을 취한 Rect 구조체의 또 다른 버전입니다
 
+struct AlternativeRect {
+  var origin = Point()
+  var size = Size()
+  var center: Point {
+    get {
+      let centerX = origin.x + (size.width / 2)
+      let centerY = origin.y + (size.height / 2)
+      return Point(x: centerX, y: centerY)
+    }
+    set {
+      origin.x = newValue.x - (size.width / 2)
+      origin.y = newValue.y - (size.height / 2)
+    }
+  }
+}
 
 
+//Shorthand Getter Declaration (획득자 선언의 줄임 표현)
+//획득자의 전체 본문이 ‘단일 표현식 (single expression)’ 인 경우, 획득자는 해당 표현식을 암시적으로 반환합니다. 다음은 이런 ‘줄임 표기법’ 과 설정자에 대한 ‘줄임 표기법’ 의 장점을 취한 Rect 구조체의 또 다른 버전입니다
+//획득자에서 return 을 생략하는 것
 
+struct CompactRect {
+  var origin = Point()
+  var size = Size()
+  var center: Point {
+    get {
+      Point(x: origin.x + (size.width / 2), y: origin.y + (size.height / 2))
+    }
+    set {
+      origin.x = newValue.x - (size.width / 2)
+      origin.y = newValue.y - (size.height / 2)
+    }
+  }
+}
 
+//Read-Only Computed Properties (읽기-전용 계산 속성)
+//‘획득자’ 는 가지지만 ‘설정자’ 는 가지지 않은 ‘계산 속성’ 을 읽기-전용 계산 속성 (read-only computed property) 이라고 합니다. ‘읽기-전용 계산 속성’ 은 값을 항상 반환하며, ‘점 구문’ 을 통해 접근할 수 있지만, 다른 값을 설정할 수는 없습니다.
 
+//읽기-전용 계산 속성을 포함한-계산 속성은 반드시 var 키워드를 가진 변수 속성으로 선언해야 하는데, 이 값은 고정된 것이 아니기 때문입니다.
+//읽기-전용 계산 속성은 get 키워드와 중괄호를 제거하여 선언을 단순화할 수 있습니다4:
+struct Cuboid {
+  var width = 0.0, height = 0.0, depth = 0.0
+  var volume: Double {
+    return width * height * depth
+  }
+}
 
-
-
-
-
-
-
-
-
-
-
-
+let fourByFiveByTwo = Cuboid(width: 4.0, height: 5.0, depth: 2.0)
+print("the volume of fourByFiveByTwo is \(fourByFiveByTwo.volume)")
+// "the volume of fourByFiveByTwo is 40.0" 를 인쇄합니다.
 
 
 
