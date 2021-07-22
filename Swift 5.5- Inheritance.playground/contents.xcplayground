@@ -7,5 +7,6 @@
         <page name='Accessing Superclass Methods, Properties, and Subscripts '/>
         <page name='Overriding Methods '/>
         <page name='Overriding Properties'/>
+        <page name='Preventing Overrides'/>
     </pages>
 </playground>
