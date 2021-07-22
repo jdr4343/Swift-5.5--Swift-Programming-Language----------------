@@ -4,6 +4,7 @@
         <page name='Setting Initial Values for Stored Propertie'/>
         <page name='Customizing Initialization'/>
         <page name='Default Initializers'/>
+        <page name='Initializer Delegation for Value Types'/>
         <page name='Class Inheritance and Initialization'/>
         <page name='Failable Initializers'/>
         <page name='Required Initializers'/>
