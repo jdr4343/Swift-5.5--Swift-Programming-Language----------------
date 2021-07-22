@@ -38,10 +38,26 @@ print("Car: \(car.description)")
 // "Car: traveling at 25.0 miles per hour in gear 3" 를 인쇄합니다.
 
 
+//Overriding Property Observers (속성 관찰자 재정의하기)
 
+//상속한 속성에 ‘속성 관찰자’ 를 추가하기 위해 ‘속성 재정의’ 를 사용할 수 있습니다.
+// 해당 속성이 원래 어떻게 구현되어 있는지에 상관없이, 상속한 속성의 값이 바뀔 때 알림을 받을 수 있게 해줍니다
 
+//다음 예제는, Car 의 하위 클래스인, AutomaticCar 라는 새로운 클래스를 정의합니다. AutomaticCar 클래스는, 현재 속도를 기초로 적절한 기어를 자동으로 선택하는, ‘자동 변속기 (gearbox)’ 를 가진 자동차를 표현합니다:
 
+class AutomaticCar: Car {
+  override var currentSpeed: Double {
+    didSet {
+      gear = Int(currentSpeed / 10.0) + 1
+    }
+  }
+}
+//AutomaticCar 인스턴스의 currentSpeed 속성을 설정할 때마다, 속성의 ‘didSet 관찰자’ 가 새로운 속도에 적절한 기어를 선택하도록 인스턴스의 gear 속성을 설정합니다. 특별히, 속성 관찰자는 새 currentSpeed 값을 10 으로 나눠서, 소수점 이하는 버린 다음, 1 을 더한 ‘기어’ 를 선택합니다. 속도가 35.0 이면 4 라는 기어를 4 내놓습니다:
 
+let automatic = AutomaticCar()
+automatic.currentSpeed = 35.0
+print("AutomaticCar: \(automatic.description)")
+// "AutomaticCar: traveling at 35.0 miles per hour in gear 4" 를 인쇄합니다.
 
 
 
