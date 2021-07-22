@@ -1,7 +1,7 @@
 //: [Previous](@previous)
 
 import Foundation
-
+///https://xho95.github.io/xcode/swift/grammar/initialization/2016/01/23/Initialization.html
 //Setting Initial Values for Stored Properties (저장 속성에 대한 초기 값 설정하기)
 
 //클래스와 구조체는 해당 클래스나 구조체의 인스턴스가 생성될 때까지 자신의 모든 저장 속성에 반드시 (must) 적절한 초기 값을 설정해야 합니다. 저장 속성을 ‘결정하지 않은 상태’ 로 남겨둘 수는 없습니다.
@@ -48,28 +48,6 @@ print("The default temperature is \(f.temperature)° Fahrenheit")
 struct Fahrenheit1 {
   var temperature = 32.0
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
