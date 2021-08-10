@@ -3,5 +3,6 @@
     <pages>
         <page name='Representing and Throwing Errors'/>
         <page name='Propagating Errors Using Throwing Fuctions'/>
+        <page name='Converting Errors to Optional Values'/>
     </pages>
 </playground>
