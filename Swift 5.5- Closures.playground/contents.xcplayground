@@ -3,5 +3,7 @@
     <pages>
         <page name='Closure Expressions'/>
         <page name='Trailing Closures'/>
+        <page name='Capturing Values'/>
+        <page name='Escaping Closures'/>
     </pages>
 </playground>
