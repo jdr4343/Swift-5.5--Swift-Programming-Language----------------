@@ -4,5 +4,7 @@
         <page name='Access Control'/>
         <page name='Access Control Syntax '/>
         <page name='Types'/>
+        <page name='Subclassing'/>
+        <page name='Constants, Variables, Properties, and Subscripts'/>
     </pages>
 </playground>
